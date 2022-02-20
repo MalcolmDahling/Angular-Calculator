@@ -1,0 +1,17 @@
+<div id="calcContainer">
+    <span id="output">
+        {{expression}}
+    </span>
+
+    <div id="buttons">
+
+        <input
+            *ngFor="button of buttons let i = index"
+            type="button"
+            (click)="calc($event)"
+            value="{{buttons[i]}}"
+        >
+        
+    </div>
+
+</div>

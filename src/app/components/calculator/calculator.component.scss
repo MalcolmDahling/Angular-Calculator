@@ -1,0 +1,35 @@
+#calcContainer{
+    border:2px solid black;
+    width:300px;
+    height:280px;
+    box-sizing:border-box;
+    padding:10px;
+    background-color:rgb(202, 202, 202);
+
+    #output{
+        display:block;
+        border:2px solid black;
+        height:40px;
+        margin-bottom:10px;
+        text-align:right;
+        line-height:40px;
+        font-size: larger;
+        padding-right:10px;
+        background-color:white;
+    }
+
+    #buttons{
+        float:left;
+
+        input{
+            width:25%;
+            height:40px;
+            font-size:larger;
+        }
+
+        input:last-child{
+            width:100%;
+        }
+    }
+
+}

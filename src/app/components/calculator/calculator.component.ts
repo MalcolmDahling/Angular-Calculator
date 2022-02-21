@@ -29,7 +29,7 @@ export class CalculatorComponent implements OnInit {
             this.expression = eval(this.expression);
         }
 
-        else if( (event.target as HTMLInputElement).value == 'C' ){
+        else if( (event.target as HTMLInputElement).value == 'CE' ){
             this.expression = '';
         }
 
